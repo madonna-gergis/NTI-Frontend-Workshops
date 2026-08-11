@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body { background-color: #eef2f5; font-family: sans-serif; }
+        .form-card { width: 400px; margin: 50px auto; background-color: white; box-shadow: 0 0 10px gray; }
+        .header { background-color: #125d88; color: white; text-align: center; padding: 15px; }
+        form { padding: 20px; }
+        input, select { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; }
+        .submit-btn { width: 100%; background-color: #3197d6; color: white; border: none; padding: 10px; margin-top: 15px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div class="form-card">
+        <div class="header">
+            <h2>Registion Form</h2>
+        </div>
+
+        <form>
+            <table width="100%" cellpadding="5">
+                <tr>
+                    <td><label for="fn">First Name</label><br><input type="text" id="fn" required></td>
+                    <td><label for="ln">Last Name</label><br><input type="text" id="ln" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="email">Email Address</label><br><input type="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="phone">Phone</label><br><input type="tel" id="phone" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City</label><br>
+                        <select id="city">
+                            <option selected disabled>Choose city</option>
+                            <option>Cairo</option>
+                            <option>London</option>
+                            <option>Alexandria</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="country">Country</label><br>
+                        <select id="country">
+                            <option selected disabled>Choose country</option>
+                            <option>Egypt</option>
+                            <option>India</option>
+                            <option>UK</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <button type="submit" class="submit-btn">Get Started</button>
+        </form>
+    </div>
+
+</body>
+</html>

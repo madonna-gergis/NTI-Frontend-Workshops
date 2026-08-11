@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="main-title">Survey Form</h1>
+
+    <div class="form-card">
+        <p class="sub-title">Let us know how we can improve freeCodeCamp</p>
+
+        <form>
+            <table width="100%">
+                <tr>
+                    <td class="label-cell"><label for="name">* Name:</label></td>
+                    <td><input type="text" id="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="email">* Email:</label></td>
+                    <td><input type="email" id="email" placeholder="Enter your Email" required></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="age">* Age:</label></td>
+                    <td><input type="number" id="age" placeholder="Age" min="1" max="90" required></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="role">Which option best describes your current role?</label></td>
+                    <td>
+                        <select id="role">
+                            <option selected disabled>Select an option</option>
+                            <option>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Learner</option>
+                            <option>Prefer not to say</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label>* How likely is that you would recommend freeCodeCamp to a friend?</label></td>
+                    <td class="radio-group">
+                        <input type="radio" id="definitely" name="recommend" required>
+                        <label for="definitely">Definitely</label><br>
+                        <input type="radio" id="maybe" name="recommend">
+                        <label for="maybe">Maybe</label><br>
+                        <input type="radio" id="not-sure" name="recommend">
+                        <label for="not-sure">Not sure</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="fcc-like">What do you like most in FCC:</label></td>
+                    <td>
+                        <select id="fcc-like">
+                            <option selected disabled>Select an option</option>
+                            <option>Challenges</option>
+                            <option>Projects</option>
+                            <option>Community</option>
+                            <option>Open Source</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label>Things that should be improved in the future (Check all that apply):</label></td>
+                    <td class="checkbox-group">
+                        <input type="checkbox" id="fe" name="improve">
+                        <label for="fe">Front-end Projects</label><br>
+                        <input type="checkbox" id="be" name="improve">
+                        <label for="be">Back-end Projects</label><br>
+                        <input type="checkbox" id="dv" name="improve">
+                        <label for="dv">Data Visualization</label>
+                    </td>
+                </tr>
+            </table>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
