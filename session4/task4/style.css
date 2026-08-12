@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --purple: #5235e8;
+    --orange: #ff9800;
+    --white: #ffffff;
+    --text-muted: #e0e0e0;
+    --dark-text: #222222;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.w-25 {
+    width: 23.5%;
+}
+
+.d-inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+.facts-wrapper {
+    background-color: var(--purple);
+    background-image: url('Group.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+    padding: 60px 40px 80px 40px;
+    color: var(--white);
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-car {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    opacity: 0.55;
+    mix-blend-mode: multiply;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.header, .cards-row {
+    position: relative;
+    z-index: 2;
+}
+
+.header h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.header p {
+    color: var(--text-muted);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.cards-row {
+    text-align: center;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 18px;
+    padding: 20px 15px;
+    margin: 0 0.5%;
+    text-align: left;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.card-inner {
+    width: 100%;
+}
+
+.icon-box {
+    background-color: var(--orange);
+    color: var(--white);
+    width: 55px;
+    height: 55px;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.info h3 {
+    color: var(--dark-text);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.info p {
+    color: #777;
+    font-size: 14px;
+}
