@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container d-flex align-center content-between">
+            <div class="logo d-flex align-center">
+                <img src="images/car.png" alt="logo">
+                <h2>Car Rental</h2>
+            </div>
+
+            <ul class="nav-links d-flex align-center content-between">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">Vehicles</a></li>
+                <li><a href="#">Details</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <div class="contact-info d-flex align-center">
+                <div class="phone-icon d-flex align-center justify-center">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                    <p class="help-text">Need help?</p>
+                    <p class="phone-num">+996 247-1680</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero container">
+        <div class="hero-wrapper d-flex content-between align-center">
+            <img src="images/Group.png" class="road-bg" alt="road pattern">
+            <img src="images/Imgs.png" class="car-bg" alt="car background">
+
+            <div class="hero-text">
+                <h1>Experience the road<br>like never before</h1>
+                <p>Aliquam adipiscing velit semper morbi. Purus non eu cursus porttitor tristique et gravida. Quis nunc interdum gravida ullamcorper</p>
+                <a href="#" class="btn-orange">View all cars</a>
+            </div>
+
+            <div class="hero-form">
+                <h3>Book your car</h3>
+                <form>
+                    <div class="form-group">
+                        <select>
+                            <option>Car type</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option>Place of rental</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option>Place of return</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Rental date">
+                        <i class="fa-regular fa-calendar-days"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Return date">
+                        <i class="fa-regular fa-calendar-days"></i>
+                    </div>
+                    <button type="submit" class="btn-orange w-100">Book now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="features container">
+        <div class="d-flex content-between">
+            <div class="feature-card text-center">
+                <img src="images/icon1.png" alt="Availability">
+                <p>Diam tincidunt tincidunt erat at semper fermentum. Id ultricies quis</p>
+            </div>
+
+            <div class="feature-card text-center">
+                <img src="images/icon2.png" alt="Comfort">
+                <p>Gravida auctor fermentum morbi vulputate ac egestas orcietium convallis</p>
+            </div>
+
+            <div class="feature-card text-center">
+                <img src="images/icon3.png" alt="Savings">
+                <p>Pretium convallis id diam sed commodo vestibulum lobortis volutpat</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps-section container">
+        <div class="d-flex align-center content-between">
+            <div class="steps-img">
+                <img src="images/blue.png" alt="process image">
+            </div>
+
+            <div class="steps-content">
+                <div class="step-item">
+                    <div class="step-header d-flex align-center">
+                        <span class="step-num d-flex align-center justify-center">1</span>
+                        <h3>Erat at semper</h3>
+                    </div>
+                    <p>Non amet fermentum est in enim at sit ullamcorper. Sit elementum rhoncus nullam feugiat. Risus sem fermentum...</p>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-header d-flex align-center">
+                        <span class="step-num d-flex align-center justify-center">2</span>
+                        <h3>Urna nec vivamus risus duis arcu</h3>
+                    </div>
+                    <p>Aliquam adipiscing velit semper morbi. Purus non eu cursus porttitor tristique et gravida. Quis nunc interdum gravida ullamcorper</p>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-header d-flex align-center">
+                        <span class="step-num d-flex align-center justify-center">3</span>
+                        <h3>Lobis euismod imperdiet tempus</h3>
+                    </div>
+                    <p>Viverra scelerisque mauris et nullam molestie et. Augue adipiscing praesent nisl cras nunc luctus viverra nisi</p>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-header d-flex align-center">
+                        <span class="step-num d-flex align-center justify-center">4</span>
+                        <h3>Cras nulla aliquet nam eleifend amet et</h3>
+                    </div>
+                    <p>Aliquam adipiscing velit semper morbi. Purus non eu cursus porttitor tristique et gravida. Quis nunc interdum gravida ullamcorper sed integer. Quisque eleifend tincidunt vulputate libero</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cars-section container">
+        <div class="cars-header d-flex align-center content-between">
+            <h2>Choose the car that<br>suits you</h2>
+            <a href="#" class="view-all">View All <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="cars-grid">
+            <div class="car-card">
+                <img src="images/Img+ text+ icons.png" alt="Mercedes Sedan">
+                <a href="#" class="btn-card">View Details</a>
+            </div>
+
+            <div class="car-card">
+                <img src="images/Img+ text+ icons (1).png" alt="Mercedes Sport">
+                <a href="#" class="btn-card">View Details</a>
+            </div>
+
+            <div class="car-card">
+                <img src="images/Img+ text+ icons (2).png" alt="Mercedes Sedan">
+                <a href="#" class="btn-card">View Details</a>
+            </div>
+
+            <div class="car-card">
+                <img src="images/Img+ text+ icons (3).png" alt="Porsche SUV">
+                <a href="#" class="btn-card">View Details</a>
+            </div>
+
+            <div class="car-card">
+                <img src="images/Img+ text+ icons (4).png" alt="Toyota Sedan">
+                <a href="#" class="btn-card">View Details</a>
+            </div>
+
+            <div class="car-card">
+                <img src="images/Img+ text+ icons (5).png" alt="Porsche SUV">
+                <a href="#" class="btn-card">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="facts-section container">
+        <div class="facts-wrapper text-center">
+            <img src="images/Group.png" class="facts-road-bg" alt="road pattern">
+            <img src="images/car2.png" class="facts-car-bg" alt="car overlay">
+
+            <div class="facts-header">
+                <h2>Facts In Numbers</h2>
+                <p>Amet cras hac orci lacus. Faucibus ipsum arcu lectus nibh sapien bibendum ullamcorper<br>in. Diam tincidunt tincidunt erat at semper fermentum</p>
+            </div>
+
+            <div class="facts-cards d-flex content-between">
+                <div class="fact-card d-flex align-center">
+                    <div class="fact-icon d-flex align-center justify-center">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+                    <div class="fact-text text-left">
+                        <h4>540+</h4>
+                        <p>Cars</p>
+                    </div>
+                </div>
+
+                <div class="fact-card d-flex align-center">
+                    <div class="fact-icon d-flex align-center justify-center">
+                        <i class="fa-solid fa-user-heart"></i>
+                    </div>
+                    <div class="fact-text text-left">
+                        <h4>20k+</h4>
+                        <p>Customers</p>
+                    </div>
+                </div>
+
+                <div class="fact-card d-flex align-center">
+                    <div class="fact-icon d-flex align-center justify-center">
+                        <i class="fa-regular fa-calendar-check"></i>
+                    </div>
+                    <div class="fact-text text-left">
+                        <h4>25+</h4>
+                        <p>Years</p>
+                    </div>
+                </div>
+
+                <div class="fact-card d-flex align-center">
+                    <div class="fact-icon d-flex align-center justify-center">
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <div class="fact-text text-left">
+                        <h4>20m+</h4>
+                        <p>Miles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download-app container">
+        <div class="d-flex align-center content-between">
+            <div class="app-info">
+                <h2>Download<br>mobile app</h2>
+                <p>Imperdiet ut tristique viverra nunc. Ultrices orci vel auctor cursus turpis nibh placerat massa. Fermentum urna ut at et in. Turpis aliquet cras hendrerit enim condimentum. Condimentum interdum risus bibendum urna</p>
+                
+                <div class="store-btns d-flex align-center">
+                    <a href="#" class="store-btn">
+                        <i class="fa-brands fa-apple"></i>
+                        <div>
+                            <span>Download on the</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="store-btn">
+                        <img src="images/Icon.png" alt="Google Play" class="play-icon">
+                        <div>
+                            <span>GET IT ON</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="app-mockups">
+                <img src="images/Group 11.png" class="phone-back" alt="iPhone Back">
+                <img src="images/Group 11.png" class="phone-front" alt="iPhone Front">
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-section container">
+        <div class="banner-wrapper d-flex align-center content-between">
+            <img src="images/Group.png" class="banner-road-bg" alt="tire pattern">
+
+            <div class="banner-content">
+                <h2>Enjoy every mile with<br>adorable companionship.</h2>
+                <p>Amet cras hac orci lacus. Faucibus ipsum arcu lectus nibh sapien<br>bibendum ullamcorper in. Diam tincidunt tincidunt erat</p>
+                
+                <div class="search-box d-flex align-center content-between">
+                    <input type="text" placeholder="City">
+                    <button class="btn-search">Search</button>
+                </div>
+            </div>
+
+            <div class="banner-car-wrapper">
+                <img src="images/Vector.png" class="banner-car-img" alt="Car Vector">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section container">
+        <div class="footer-row footer-top d-flex content-between align-center">
+            <div class="footer-col footer-logo d-flex align-center">
+                <img src="images/Vector.png" alt="Car Rental Logo" class="logo-img">
+                <span>Car Rental</span>
+            </div>
+
+            <div class="footer-col contact-item d-flex align-center">
+                <div class="contact-icon d-flex align-center justify-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                    <span>Address</span>
+                    <strong>Oxford Ave. Cary, NC 27511</strong>
+                </div>
+            </div>
+
+            <div class="footer-col contact-item d-flex align-center">
+                <div class="contact-icon d-flex align-center justify-center">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                    <span>Email</span>
+                    <strong>nwiger@yahoo.com</strong>
+                </div>
+            </div>
+
+            <div class="footer-col contact-item d-flex align-center">
+                <div class="contact-icon d-flex align-center justify-center">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                    <span>Phone</span>
+                    <strong>+537 547-6401</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-row footer-middle d-flex content-between">
+            <div class="footer-col col-about">
+                <p>Faucibus faucibus pellentesque dictum turpis. Id pellentesque turpis massa a id iaculis lorem t...</p>
+                <div class="social-links d-flex align-center">
+                    <a href="#" class="d-flex align-center justify-center"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="d-flex align-center justify-center"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="d-flex align-center justify-center"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="d-flex align-center justify-center"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Useful links</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">F.A.Q</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Vehicles</h3>
+                <ul>
+                    <li><a href="#">Sedan</a></li>
+                    <li><a href="#">Cabriolet</a></li>
+                    <li><a href="#">Pickup</a></li>
+                    <li><a href="#">Minivan</a></li>
+                    <li><a href="#">SUV</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col col-app">
+                <h3>Download App</h3>
+                <div class="footer-store-btns">
+                    <a href="#" class="store-btn">
+                        <i class="fa-brands fa-apple"></i>
+                        <div>
+                            <span>Download on the</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="store-btn">
+                        <img src="images/Icon.png" alt="Google Play" class="play-icon">
+                        <div>
+                            <span>GET IT ON</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
