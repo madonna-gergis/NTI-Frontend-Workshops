@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.envato-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 1030;
+    background-color: #262626;
+}
+
+.main-wrapper {
+    padding-top: 50px;
+    min-height: 100vh;
+}
+
+.left-section {
+    background-color: #ffffff;
+}
+
+.right-section {
+    background-color: #0b1329;
+    color: #ffffff;
+}
+
+.demo-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.demo-card.active {
+    border-color: #f97316;
+    background-color: #fffaf8;
+}
+
+.bg-orange {
+    background-color: #f97316;
+}
+
+.text-orange {
+    color: #f97316;
+}
+
+.btn-custom-dark {
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.btn-custom-dark:hover {
+    background-color: #1e293b;
+    color: #ffffff;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.75rem;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.divider:not(:empty)::before {
+    margin-right: .5em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: .5em;
+}
+
+.logo-box, .avatar-box {
+    width: 32px;
+    height: 32px;
+}
+
+.avatar-box {
+    font-size: 0.75rem;
+}
+
+.form-container {
+    max-width: 480px;
+}
+
+.quote-container {
+    max-width: 440px;
+}
+
+.section-subtitle {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.font-micro {
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+}
+
+.font-small {
+    font-size: 0.75rem;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.quote-text {
+    line-height: 1.3;
+}
+
+.user-avatar {
+    width: 48px;
+    height: 48px;
+}
